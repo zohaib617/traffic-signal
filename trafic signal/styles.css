@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #56a5eb;
+}
+#startButton {
+ background-color: #1982e3;
+ width: 60px;
+ height: 45px;
+ border-radius: 0%;
+ border: none;
+
+
+}
+
+#startButton:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(13, 64, 90, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+ 
+
+}
+#textInput{
+  text-align: center;
+  text-shadow: #19e326;
+  font-size: large;
+
+margin-right: 40px;
+  width: 60px;
+  height: 41px;
+  background-color: #cedde2;
+}
+.container {
+
+  width: 360px;
+  height: auto;
+  border-radius: 10%;
+   text-align: center;
+  background-color: rgb(147, 220, 232);
+  align-items: center;
+  align-content: flex-start;
+  border-color: black;
+  
+}
+
+.traffic-signal {
+  border-radius: 5%;
+  width: 100px;
+  height: 150px;
+  border: 1px solid rgb(22, 246, 209);
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(28, 3, 3);
+}
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  box-shadow: #1982e3;
+  box-shadow: #cedde2;
+}
+
+#btn1 {
+  background-color: rgb(248, 241, 241);
+  box-shadow: 0 0 10px 2px rgba(148, 253, 20, 0.6); /* Adding a shadow for effect */
+}
+
+#btn2 {
+  background-color: rgb(255, 255, 251);
+  box-shadow: 0 0 10px 2px rgba(255, 255, 0, 0.6);
+}
+
+#btn3 {
+  background-color: rgb(240, 244, 240);
+  box-shadow: 0 0 10px 2px rgba(0, 255, 0, 0.6);
+}
